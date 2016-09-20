@@ -1,0 +1,22 @@
+	Theory.
+Question on Batch scripts.
+
+1.Basic dos stuff  (navigation in file system, ECHO, /?, what command prompt is)Command Prompt is a command line interpreter program. A command line interpreter is any program that allows the entering of commands and then executes those commands to the operating system.*Attrib - change file attribute 
+*CD - change directory
+*CLS - clear the screen 
+*DIR - display directory
+*HELP - help about cmd
+*RD - remove directory
+*RENAME - rename file or dir
+/? - help about command 
+
+2. PATH, PATHEXT, WHERE, how shell searches for a file; CD, PUSHD, POPD
+Search in folder and then in path
+Find,findstr or dir *.txt /s 
+PATH - Display or set a search path for exe files 
+PATHEXT - Set path to exe, syntax is like the PATH.
+WHERE - search and locate filepath from pattern
+cd .., cd \, cd c:\windows
+PUSHD - 
+ 
+
