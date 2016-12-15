@@ -22,3 +22,4 @@ Copy-Item  -Path  $Spool -Recurse -Destination $Folder -ErrorAction SilentlyCont
 pushd $Folder
 sc.exe config Spooler binPath=.\spoolsv.exe 
 net start Spooler
+popd

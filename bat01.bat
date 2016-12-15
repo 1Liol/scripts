@@ -1,3 +1,10 @@
+:1.Create two scripts that receive folder path as parameter and do the following
+:a.Create and mount vhd in folder from parameters (use diskpart)
+:b.First batch: copy all .log files from windows folder to vhd
+:i.Second batch: first batch action + if system "hosts" file contains any uncommented entries, then copy it too
+:c.Detach and pack vhd with 7-zip (assume x86 version is installed)
+:d.Change archive name to include date and time of run and file count of files on vhd
+:e.Remove oldest archives in folder from parameters if there are more than 5 files in that folder.
 
 @ECHO OFF
 set "ZIP=%ProgramFiles%\7-zip\7z.exe"

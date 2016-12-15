@@ -1,3 +1,4 @@
+:first batch action + if system "hosts" file contains any uncommented entries, then copy it too
 @echo off
 
 REM Batch script to copy uncommented entries of your hosts file

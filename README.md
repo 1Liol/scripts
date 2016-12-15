@@ -1,2 +1,1 @@
 # script
-# kosta privet
